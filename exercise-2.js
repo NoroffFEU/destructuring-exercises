@@ -5,3 +5,9 @@
 // them correctly.
 
 const values = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+
+const [first, second, , , fifth] = values;
+
+console.log(first, second, fifth);
+// Logs:
+// 10 20 50

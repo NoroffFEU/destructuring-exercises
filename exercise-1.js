@@ -7,3 +7,9 @@ const car = {
   country: 'Japan',
   coupe: true,
 };
+
+const { country, coupe, manufacturer, model } = car;
+
+console.log(country, coupe, manufacturer, model);
+// Logs:
+// Japan true Nissan Skyline GT-R
